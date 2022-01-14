@@ -131,3 +131,8 @@ STATICFILES_DIRS = [
     BASE_DIR/'static'
     
 ]
+
+
+#Auth
+
+AUTH_USER_MODEL= 'core.CustomUser'
